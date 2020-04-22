@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-    <h2>这是我的静态页面</h2>
+    <header><h3>1906A最帅的人<img src="data:image/jpeg;base64,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" alt=""></h3></header>
+    <div class="main">
+        <div class="main-2">
+            <div class="jb">
+                <div class="jb2">
+                    <h6>姓名：丁国强</h6>
+                    <h6>年龄：19</h6>
+                    <h6>性别：男的</h6>
+                    <p class="p2">不上传本人的照片呢，不是没自信，而是本人太帅了，不想惹起事端，<span>联系电话：18738159176（记住了）</span></p>
+                </div>
+                <h6>1906A的小伙伴们:</h6>
+                <p class="p1">记住你是最棒的，永远都要对自己有信心，如果连你自己都对你失去信心的话，那谁还会信任你，让我们一起加油！一起努力！朝着我们想要的目标前进！！！</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+<style>
+    span{
+        font-weight: 700;
+    }
+    .p2{
+        font-size: 16px;
+    }
+    .p1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .jb2{
+        text-align: center;
+    }
+    h6{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .main{
+        width: 100%;
+        height: 250px;
+        background: #f2f2f2;
+        margin:  0 auto;
+    }
+    .main-2{
+        width: 50%;
+        height: 250px;
+        margin: 0 auto;
+    }
+    img{
+        width: 4%;
+    }
+    .jb{
+        width: 100%;
+    }
+</style>
